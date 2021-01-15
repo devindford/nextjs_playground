@@ -37,6 +37,7 @@ export default function Home() {
           href='https://twitter.com/devindford?ref_src=twsrc%5Etfw'
           class='twitter-follow-button'
           data-show-count='false'
+          data-size='large'
         >
           Follow @DevinDFord
         </a>
