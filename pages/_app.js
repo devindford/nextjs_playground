@@ -1,7 +1,11 @@
-import '../styles/globals.css'
+import { ProvideAuth } from '../library/auth';
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
-}
+const MyApp = ({ Component, pageProps }) => {
+  return (
+    <ProvideAuth>
+      <Component {...pageProps} />
+    </ProvideAuth>
+  );
+};
 
-export default MyApp
+export default MyApp;
